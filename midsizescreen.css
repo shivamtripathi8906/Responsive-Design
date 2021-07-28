@@ -1,0 +1,71 @@
+@media (max-device-width: 770px) {
+  .homepage .introduction_content .main_photo {
+    width: 90%;
+  }
+  .homepage .introduction_content .main_photo #intro_button1 {
+    display: none;
+  }
+  .homepage .introduction_content .intro_text {
+    bottom: -20.5rem;
+    left: -1.1rem;
+  }
+  .intro_text h1 {
+    line-height: 2.5rem;
+    font-size: 3.2rem;
+  }
+  .dot_image {
+    display: none;
+  }
+  .p1 {
+    display: none;
+  }
+  .p2 {
+    display: block;
+  }
+  .main_photo {
+    margin-bottom: 22rem;
+  }
+  .reality {
+    height: 200vh;
+  }
+  .photoparts {
+    width: 90%;
+  }
+  .content_part {
+    width: 87%;
+  }
+  div.horitontal_scroll {
+    padding-left: 5%;
+  }
+  .description a {
+    font-size: 1.23rem;
+    margin-left: 2%;
+  }
+  .erflexboxes {
+    grid-template-rows: repeat(6, 4fr);
+    grid-template-columns: repeat(1, 4fr);
+    height: auto;
+  }
+  .endingpart {
+    flex-direction: column;
+    height: auto;
+  }
+  .ending1 {
+    width: 100%;
+  }
+  .ending2 {
+    width: 100%;
+  }
+  .ending1 input[type="email"] {
+    margin-left: 12%;
+  }
+}
+@media (max-device-width: 600px) {
+  .homepage .introduction_content .intro_text {
+    bottom: -11.5rem;
+    left: -1.1rem;
+  }
+  .main_photo {
+    margin-bottom: 15rem;
+  }
+}

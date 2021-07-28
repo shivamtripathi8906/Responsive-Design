@@ -1,0 +1,163 @@
+@media (max-device-width: 1024px) {
+  .right_nav_content #button2 {
+    display: none;
+  }
+  .right_nav_content #button1 {
+    display: none;
+  }
+  .right_nav_content {
+    display: none;
+  }
+  .content1 {
+    /* display: none; */
+  }
+  .nav_content {
+    display: none;
+  }
+  .homepage .introduction_content .main_photo {
+    width: 80%;
+  }
+  .homepage .introduction_content .main_photo #intro_button1 {
+    width: 70%;
+  }
+  .homepage .introduction_content .intro_text {
+    bottom: -6.5rem;
+    left: -2.5rem;
+  }
+  .reality1 {
+    flex-direction: column;
+  }
+  .real1 {
+    width: 100%;
+    height: 50%;
+  }
+  .real2 {
+    height: 50%;
+    width: 100%;
+    padding-top: 16.8%;
+  }
+  .reality2 {
+    flex-direction: column-reverse;
+  }
+  .real3 {
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+  }
+  .real4 {
+    height: 50%;
+    width: 100%;
+    padding-top: 16.8%;
+  }
+  .reality {
+    height: 205vh;
+  }
+  div.conents_hor {
+    display: flex;
+    flex-direction: column;
+  }
+  .photoparts {
+    width: 70%;
+  }
+  .content_part {
+    width: 75%;
+  }
+  .work_description {
+    height: 32%;
+    margin-bottom: 5rem;
+  }
+  .description a {
+    font-size: 1.23rem;
+    margin-left: 45%;
+  }
+  div.horitontal_scroll {
+    height: 56.5%;
+  }
+  .scroll_button {
+    display: none;
+  }
+  .erflexboxes {
+    grid-template-rows: repeat(4, 4fr);
+    grid-template-columns: repeat(2, 4fr);
+    height: 170vh;
+  }
+  .form-popup {
+    left: 19%;
+  }
+  .ham {
+    display: block;
+    position: fixed;
+    z-index: 400;
+    top: 1rem;
+    right: 1rem;
+    width: 3rem;
+    border: none;
+    height: 3.6rem;
+    /* border: black solid 1px; */
+    background: #09112d;
+    color: white;
+    cursor: pointer;
+  }
+  .xIcon {
+    display: none;
+  }
+  .showMenu {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    color: white;
+    transform: translateY(-100%);
+    text-decoration: none;
+    transition: transform 0.2s;
+    list-style: none;
+    padding-top: 4rem;
+    border: 2px solid black;
+  }
+  .showNav {
+    transform: translateY(0);
+  }
+  .hamburgerpage li a {
+    text-decoration: none;
+    color: white;
+  }
+  .hamburgerpage {
+    display: block;
+
+    position: absolute;
+    z-index: 200;
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    font-family: "Baloo Tammudu 2", cursive;
+    background-color: #09112d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    line-height: 3.8rem;
+  }
+  .hamfoot {
+    height: 15%;
+    width: 95%;
+    border-top: 1px solid rgb(13, 13, 126);
+    margin-top: 9rem;
+    font-family: "Baloo Tammudu 2", cursive;
+    font-size: 1.65rem;
+  }
+  .hamfoot a {
+    text-decoration: none;
+    color: rgb(13, 13, 126);
+  }
+  .form-popup {
+    padding-top: 0.5%;
+  }
+}

@@ -1,0 +1,43 @@
+@media screen and(max-width: 1200px) {
+  .homepage .introduction_content .intro_text {
+    bottom: -7.5rem;
+    left: -2.5rem;
+  }
+}
+@media screen and(max-width:870px) {
+  .homepage .introduction_content .intro_text {
+    bottom: -4.5rem;
+    left: -2.5rem;
+  }
+}
+@media screen and(max-width: 1023px) {
+  /* .work_description {
+    height: 55%;
+  } */
+  .scroll_button {
+    display: none;
+  }
+}
+@media (max-device-width: 1024px) {
+  .formpart {
+    flex-direction: column;
+  }
+  .formcontentpart {
+    width: 100%;
+  }
+
+  .shoppart {
+    height: 30rem;
+  }
+  .form1 {
+    height: 30rem;
+  }
+  .formparts {
+    width: 100%;
+  }
+}
+@media (min-device-width: 1800px) {
+  .introduction_content {
+    margin-bottom: 10rem;
+  }
+}
