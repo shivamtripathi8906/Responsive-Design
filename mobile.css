@@ -53,7 +53,10 @@
     left: 12%;
   }
   .hamfoot {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+  }
+  .footer {
+    line-height: 1.2rem;
   }
 }
 @media (max-device-width: 380px) {
